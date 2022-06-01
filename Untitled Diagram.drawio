@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T07:41:54.786Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="WiCxyA1Gd39shbrmg3CU" version="18.2.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-01T08:16:36.715Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="x6cDf1gkliwD5Vc36zYU" version="18.2.0" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Service 1">
     <mxGraphModel dx="993" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -192,7 +192,7 @@
         <mxCell id="mTdd4TgPhciaUo2gmvxd-1" value="[ดำเนินการภายในระยะเวลาที่กำหนด]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=#FFFFFF;" vertex="1" parent="EJrE-l1MfOlmUbTXFjeP-3">
           <mxGeometry x="40" y="240" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yWD7Twbtc_NCPkTVU4wa-34" value="รับหนังสืออนุญาติ และชำระค่าบริการ" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="EJrE-l1MfOlmUbTXFjeP-3">
+        <mxCell id="yWD7Twbtc_NCPkTVU4wa-34" value="รับหนังสืออนุญาต และชำระค่าบริการ" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="EJrE-l1MfOlmUbTXFjeP-3">
           <mxGeometry x="160" y="960" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EJrE-l1MfOlmUbTXFjeP-4" value="เจ้าหน้าที่" style="swimlane;startSize=20;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;strokeColor=default;fillColor=default;" vertex="1" parent="EJrE-l1MfOlmUbTXFjeP-2">
@@ -326,6 +326,651 @@
               <mxPoint x="950" y="1115" />
             </Array>
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Service3" id="KKJgFDVds7RVLSYKK7nu">
+    <mxGraphModel dx="993" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-0" />
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-1" parent="Q98tLVgN5H9FF0T-QhvO-0" />
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-2" value="การให้บริการตัดและขุดต้นไม้" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;strokeColor=default;fillColor=default;" vertex="1" parent="Q98tLVgN5H9FF0T-QhvO-1">
+          <mxGeometry x="120" y="60" width="1060" height="1370" as="geometry" />
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="Q98tLVgN5H9FF0T-QhvO-2" source="Q98tLVgN5H9FF0T-QhvO-9" target="Q98tLVgN5H9FF0T-QhvO-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="Q98tLVgN5H9FF0T-QhvO-2" source="Q98tLVgN5H9FF0T-QhvO-24" target="Q98tLVgN5H9FF0T-QhvO-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="475" y="555" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="Q98tLVgN5H9FF0T-QhvO-2" source="Q98tLVgN5H9FF0T-QhvO-12" target="Q98tLVgN5H9FF0T-QhvO-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="280" />
+              <mxPoint x="409" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-6" value="ผู้ยื่นคำขอ" style="swimlane;startSize=20;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;strokeColor=default;fillColor=default;" vertex="1" parent="Q98tLVgN5H9FF0T-QhvO-2">
+          <mxGeometry y="20" width="340" height="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="Q98tLVgN5H9FF0T-QhvO-6" source="Q98tLVgN5H9FF0T-QhvO-8" target="Q98tLVgN5H9FF0T-QhvO-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-8" value="Start" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="Q98tLVgN5H9FF0T-QhvO-6">
+          <mxGeometry x="70" y="50" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-9" value="&lt;span style=&quot;&quot;&gt;ยื่นหนังสือแจ้งความ&lt;br&gt;ประสงค์พร้อมหลักฐาน&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=20;strokeColor=default;fillColor=default;size=10;" vertex="1" parent="Q98tLVgN5H9FF0T-QhvO-6">
+          <mxGeometry x="60" y="130" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="Q98tLVgN5H9FF0T-QhvO-6" source="Q98tLVgN5H9FF0T-QhvO-11" target="Q98tLVgN5H9FF0T-QhvO-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="580" />
+              <mxPoint x="90" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-11" value="แก้ไข / ยื่นเอกสาร&lt;br&gt;เพิ่มเติม" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=20;strokeColor=default;fillColor=default;size=10;" vertex="1" parent="Q98tLVgN5H9FF0T-QhvO-6">
+          <mxGeometry x="30" y="505" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-12" value="เวลาในการดำเนิน&lt;br&gt;การแก้ไข / ยื่นเอกสาร" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="Q98tLVgN5H9FF0T-QhvO-6">
+          <mxGeometry x="20" y="610" width="140" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-13" value="[ดำเนินการเกินระยะเวลาที่กำหนด]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=#FFFFFF;" vertex="1" parent="Q98tLVgN5H9FF0T-QhvO-6">
+          <mxGeometry y="810" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-14" value="[ดำเนินการภายในระยะเวลาที่กำหนด]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=#FFFFFF;" vertex="1" parent="Q98tLVgN5H9FF0T-QhvO-6">
+          <mxGeometry x="40" y="240" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-15" value="รับหนังสืออนุญาต / ไม่อนุญาต และชำระค่าบริการ" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="Q98tLVgN5H9FF0T-QhvO-6">
+          <mxGeometry x="160" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-16" value="เจ้าหน้าที่" style="swimlane;startSize=20;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;strokeColor=default;fillColor=default;" vertex="1" parent="Q98tLVgN5H9FF0T-QhvO-2">
+          <mxGeometry x="340" y="20" width="360" height="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="Q98tLVgN5H9FF0T-QhvO-16" source="Q98tLVgN5H9FF0T-QhvO-18" target="Q98tLVgN5H9FF0T-QhvO-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="135" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-18" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="Q98tLVgN5H9FF0T-QhvO-16">
+          <mxGeometry x="65" y="150" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="Q98tLVgN5H9FF0T-QhvO-16" source="Q98tLVgN5H9FF0T-QhvO-21" target="Q98tLVgN5H9FF0T-QhvO-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Q98tLVgN5H9FF0T-QhvO-16" source="Q98tLVgN5H9FF0T-QhvO-21" target="Q98tLVgN5H9FF0T-QhvO-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="255" />
+              <mxPoint x="270" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-21" value="ตรวจสอบเอกสาร" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="Q98tLVgN5H9FF0T-QhvO-16">
+          <mxGeometry x="95" y="215" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="Q98tLVgN5H9FF0T-QhvO-16" source="Q98tLVgN5H9FF0T-QhvO-23" target="Q98tLVgN5H9FF0T-QhvO-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-23" value="&lt;span style=&quot;&quot;&gt;บันทึกความบกพร่องเอกสาร / เอกสารหลักฐานที่ยื่นเพิ่มเติม&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=20;strokeColor=default;fillColor=default;size=10;" vertex="1" parent="Q98tLVgN5H9FF0T-QhvO-16">
+          <mxGeometry x="57.5" y="345" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-24" value="มอบสำเนาบันทึกความบกพร่องแก่ผู้ยื่นคำขอ" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="Q98tLVgN5H9FF0T-QhvO-16">
+          <mxGeometry x="75" y="445" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-25" value="[เอกสารไม่ครบถ้วน / มีข้อบกพร่อง]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=default;" vertex="1" parent="Q98tLVgN5H9FF0T-QhvO-16">
+          <mxGeometry x="40" y="305" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-26" value="End" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="Q98tLVgN5H9FF0T-QhvO-16">
+          <mxGeometry x="100" y="1300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="Q98tLVgN5H9FF0T-QhvO-16" source="Q98tLVgN5H9FF0T-QhvO-28" target="Q98tLVgN5H9FF0T-QhvO-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-28" value="ออกตรวจสอบ ณ สถานที่จริง" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="Q98tLVgN5H9FF0T-QhvO-16">
+          <mxGeometry x="75" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-29" value="[เอกสารครบถ้วน]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=default;" vertex="1" parent="Q98tLVgN5H9FF0T-QhvO-16">
+          <mxGeometry x="183" y="245" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="Q98tLVgN5H9FF0T-QhvO-16" source="Q98tLVgN5H9FF0T-QhvO-31" target="Q98tLVgN5H9FF0T-QhvO-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-31" value="พิจารณาค่าบริการ" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="Q98tLVgN5H9FF0T-QhvO-16">
+          <mxGeometry x="75" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-32" value="จัดทำรายงานและนำเสนอเจ้าหน้าที่ผู้มีอำนาจอนุมัติ" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="Q98tLVgN5H9FF0T-QhvO-16">
+          <mxGeometry x="75" y="820" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-34" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="Q98tLVgN5H9FF0T-QhvO-16">
+          <mxGeometry x="145" y="1215" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="Q98tLVgN5H9FF0T-QhvO-16" source="Q98tLVgN5H9FF0T-QhvO-34" target="Q98tLVgN5H9FF0T-QhvO-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-37" value="แจ้งผลการพิจารณาแก่&lt;br&gt;ผู้ยื่นคำร้อง" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="Q98tLVgN5H9FF0T-QhvO-16">
+          <mxGeometry x="80" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Q98tLVgN5H9FF0T-QhvO-2" source="Q98tLVgN5H9FF0T-QhvO-15" target="Q98tLVgN5H9FF0T-QhvO-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="1220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="1190" />
+              <mxPoint x="489" y="1190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Q98tLVgN5H9FF0T-QhvO-2" source="Q98tLVgN5H9FF0T-QhvO-12" target="Q98tLVgN5H9FF0T-QhvO-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="1260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="1250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnTmJKC8uRKpRBFz8_bj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="Q98tLVgN5H9FF0T-QhvO-2" source="Q98tLVgN5H9FF0T-QhvO-37" target="Q98tLVgN5H9FF0T-QhvO-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnTmJKC8uRKpRBFz8_bj-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="Q98tLVgN5H9FF0T-QhvO-2" source="Q98tLVgN5H9FF0T-QhvO-32" target="TnTmJKC8uRKpRBFz8_bj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q98tLVgN5H9FF0T-QhvO-38" value="เจ้าหน้าที่ผู้มีอำนาจอนุมัติ" style="swimlane;startSize=20;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;strokeColor=default;fillColor=default;" vertex="1" parent="Q98tLVgN5H9FF0T-QhvO-2">
+          <mxGeometry x="700" y="20" width="360" height="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="TnTmJKC8uRKpRBFz8_bj-2" value="พิจารณารายงานคำร้อง" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="Q98tLVgN5H9FF0T-QhvO-38">
+          <mxGeometry x="90" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TnTmJKC8uRKpRBFz8_bj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="Q98tLVgN5H9FF0T-QhvO-2" source="TnTmJKC8uRKpRBFz8_bj-2" target="Q98tLVgN5H9FF0T-QhvO-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Service4" id="mQBhoyHuPdQkTNtVyyHk">
+    <mxGraphModel dx="993" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-0" />
+        <mxCell id="fdPcYFohW1bF7FgATOC5-1" parent="fdPcYFohW1bF7FgATOC5-0" />
+        <mxCell id="fdPcYFohW1bF7FgATOC5-2" value="การให้บริการเกี่ยวกับเศษวัสดุก่อสร้าง" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;strokeColor=default;fillColor=default;" vertex="1" parent="fdPcYFohW1bF7FgATOC5-1">
+          <mxGeometry x="120" y="60" width="700" height="1370" as="geometry" />
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="fdPcYFohW1bF7FgATOC5-2" source="fdPcYFohW1bF7FgATOC5-9" target="fdPcYFohW1bF7FgATOC5-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="fdPcYFohW1bF7FgATOC5-2" source="fdPcYFohW1bF7FgATOC5-24" target="fdPcYFohW1bF7FgATOC5-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="475" y="555" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="fdPcYFohW1bF7FgATOC5-2" source="fdPcYFohW1bF7FgATOC5-12" target="fdPcYFohW1bF7FgATOC5-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="280" />
+              <mxPoint x="409" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-6" value="ผู้ยื่นคำขอ" style="swimlane;startSize=20;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;strokeColor=default;fillColor=default;" vertex="1" parent="fdPcYFohW1bF7FgATOC5-2">
+          <mxGeometry y="20" width="340" height="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="fdPcYFohW1bF7FgATOC5-6" source="fdPcYFohW1bF7FgATOC5-8" target="fdPcYFohW1bF7FgATOC5-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-8" value="Start" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="fdPcYFohW1bF7FgATOC5-6">
+          <mxGeometry x="70" y="50" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-9" value="&lt;span style=&quot;&quot;&gt;ยื่นหนังสือแจ้งความ&lt;br&gt;ประสงค์พร้อมหลักฐาน&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=20;strokeColor=default;fillColor=default;size=10;" vertex="1" parent="fdPcYFohW1bF7FgATOC5-6">
+          <mxGeometry x="60" y="130" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="fdPcYFohW1bF7FgATOC5-6" source="fdPcYFohW1bF7FgATOC5-11" target="fdPcYFohW1bF7FgATOC5-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="580" />
+              <mxPoint x="90" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-11" value="แก้ไข / ยื่นเอกสาร&lt;br&gt;เพิ่มเติม" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=20;strokeColor=default;fillColor=default;size=10;" vertex="1" parent="fdPcYFohW1bF7FgATOC5-6">
+          <mxGeometry x="30" y="505" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-12" value="เวลาในการดำเนิน&lt;br&gt;การแก้ไข / ยื่นเอกสาร" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="fdPcYFohW1bF7FgATOC5-6">
+          <mxGeometry x="20" y="610" width="140" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-13" value="[ดำเนินการเกินระยะเวลาที่กำหนด]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=#FFFFFF;" vertex="1" parent="fdPcYFohW1bF7FgATOC5-6">
+          <mxGeometry y="810" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-14" value="[ดำเนินการภายในระยะเวลาที่กำหนด]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=#FFFFFF;" vertex="1" parent="fdPcYFohW1bF7FgATOC5-6">
+          <mxGeometry x="40" y="240" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-15" value="ชำระค่าบริการ" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="fdPcYFohW1bF7FgATOC5-6">
+          <mxGeometry x="160" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-16" value="เจ้าหน้าที่" style="swimlane;startSize=20;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;strokeColor=default;fillColor=default;" vertex="1" parent="fdPcYFohW1bF7FgATOC5-2">
+          <mxGeometry x="340" y="20" width="360" height="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="fdPcYFohW1bF7FgATOC5-16" source="fdPcYFohW1bF7FgATOC5-18" target="fdPcYFohW1bF7FgATOC5-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="135" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-18" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="fdPcYFohW1bF7FgATOC5-16">
+          <mxGeometry x="65" y="150" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="fdPcYFohW1bF7FgATOC5-16" source="fdPcYFohW1bF7FgATOC5-21" target="fdPcYFohW1bF7FgATOC5-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fdPcYFohW1bF7FgATOC5-16" source="fdPcYFohW1bF7FgATOC5-21" target="fdPcYFohW1bF7FgATOC5-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="255" />
+              <mxPoint x="270" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-21" value="ตรวจสอบเอกสาร" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="fdPcYFohW1bF7FgATOC5-16">
+          <mxGeometry x="95" y="215" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="fdPcYFohW1bF7FgATOC5-16" source="fdPcYFohW1bF7FgATOC5-23" target="fdPcYFohW1bF7FgATOC5-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-23" value="&lt;span style=&quot;&quot;&gt;บันทึกความบกพร่องเอกสาร / เอกสารหลักฐานที่ยื่นเพิ่มเติม&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=20;strokeColor=default;fillColor=default;size=10;" vertex="1" parent="fdPcYFohW1bF7FgATOC5-16">
+          <mxGeometry x="57.5" y="345" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-24" value="มอบสำเนาบันทึกความบกพร่องแก่ผู้ยื่นคำขอ" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="fdPcYFohW1bF7FgATOC5-16">
+          <mxGeometry x="75" y="445" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-25" value="[เอกสารไม่ครบถ้วน / มีข้อบกพร่อง]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=default;" vertex="1" parent="fdPcYFohW1bF7FgATOC5-16">
+          <mxGeometry x="40" y="305" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-26" value="End" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="fdPcYFohW1bF7FgATOC5-16">
+          <mxGeometry x="100" y="1300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="fdPcYFohW1bF7FgATOC5-16" source="fdPcYFohW1bF7FgATOC5-28" target="fdPcYFohW1bF7FgATOC5-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-28" value="ออกตรวจสอบ ณ สถานที่จริง และประเมินเส้นทางรถ" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="fdPcYFohW1bF7FgATOC5-16">
+          <mxGeometry x="75" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-29" value="[เอกสารครบถ้วน]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=default;" vertex="1" parent="fdPcYFohW1bF7FgATOC5-16">
+          <mxGeometry x="183" y="245" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="fdPcYFohW1bF7FgATOC5-16" source="fdPcYFohW1bF7FgATOC5-31" target="fdPcYFohW1bF7FgATOC5-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-31" value="พิจารณาค่าบริการ" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="fdPcYFohW1bF7FgATOC5-16">
+          <mxGeometry x="75" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JT5zEyGJTX63fd70HonJ-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="fdPcYFohW1bF7FgATOC5-16" source="fdPcYFohW1bF7FgATOC5-32" target="fdPcYFohW1bF7FgATOC5-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-32" value="จัดทำหนังสือค่าบริการแก่ผู้ยื่นคำขอ" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="fdPcYFohW1bF7FgATOC5-16">
+          <mxGeometry x="75" y="820" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-33" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="fdPcYFohW1bF7FgATOC5-16">
+          <mxGeometry x="145" y="1215" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="fdPcYFohW1bF7FgATOC5-16" source="fdPcYFohW1bF7FgATOC5-33" target="fdPcYFohW1bF7FgATOC5-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-35" value="แจ้งค่าบริการแก้ผู้ยื่นคำขอ" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="fdPcYFohW1bF7FgATOC5-16">
+          <mxGeometry x="75" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fdPcYFohW1bF7FgATOC5-2" source="fdPcYFohW1bF7FgATOC5-15" target="fdPcYFohW1bF7FgATOC5-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="1220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="1190" />
+              <mxPoint x="489" y="1190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fdPcYFohW1bF7FgATOC5-2" source="fdPcYFohW1bF7FgATOC5-12" target="fdPcYFohW1bF7FgATOC5-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="1260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="1250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fdPcYFohW1bF7FgATOC5-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="fdPcYFohW1bF7FgATOC5-2" source="fdPcYFohW1bF7FgATOC5-35" target="fdPcYFohW1bF7FgATOC5-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Service5" id="gEBL2G2fifESfHg4EjPx">
+    <mxGraphModel dx="993" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-0" />
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-1" parent="K5lTqBk6EVtpParv-pWJ-0" />
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-2" value="การให้บริการเก็บขนมูลฝอยติดเชื้อ" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;strokeColor=default;fillColor=default;" vertex="1" parent="K5lTqBk6EVtpParv-pWJ-1">
+          <mxGeometry x="120" y="60" width="700" height="1370" as="geometry" />
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="K5lTqBk6EVtpParv-pWJ-2" source="K5lTqBk6EVtpParv-pWJ-9" target="K5lTqBk6EVtpParv-pWJ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="K5lTqBk6EVtpParv-pWJ-2" source="K5lTqBk6EVtpParv-pWJ-24" target="K5lTqBk6EVtpParv-pWJ-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="475" y="555" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="K5lTqBk6EVtpParv-pWJ-2" source="K5lTqBk6EVtpParv-pWJ-12" target="K5lTqBk6EVtpParv-pWJ-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="280" />
+              <mxPoint x="409" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="K5lTqBk6EVtpParv-pWJ-2" source="K5lTqBk6EVtpParv-pWJ-15" target="K5lTqBk6EVtpParv-pWJ-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="1220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="1190" />
+              <mxPoint x="489" y="1190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="K5lTqBk6EVtpParv-pWJ-2" source="K5lTqBk6EVtpParv-pWJ-12" target="K5lTqBk6EVtpParv-pWJ-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="1260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="1250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-6" value="ผู้ยื่นคำขอ" style="swimlane;startSize=20;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;strokeColor=default;fillColor=default;" vertex="1" parent="K5lTqBk6EVtpParv-pWJ-2">
+          <mxGeometry y="20" width="340" height="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="K5lTqBk6EVtpParv-pWJ-6" source="K5lTqBk6EVtpParv-pWJ-8" target="K5lTqBk6EVtpParv-pWJ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-8" value="Start" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="K5lTqBk6EVtpParv-pWJ-6">
+          <mxGeometry x="95" y="50" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-9" value="&lt;span style=&quot;&quot;&gt;ยื่นหนังสือสมัครเข้ารับบริการเก็บขนมูลฝอยติดเชื้อพร้อมหลักฐาน&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=20;strokeColor=default;fillColor=default;size=10;" vertex="1" parent="K5lTqBk6EVtpParv-pWJ-6">
+          <mxGeometry x="60" y="130" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="K5lTqBk6EVtpParv-pWJ-6" source="K5lTqBk6EVtpParv-pWJ-11" target="K5lTqBk6EVtpParv-pWJ-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="580" />
+              <mxPoint x="90" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-11" value="แก้ไข / ยื่นเอกสาร&lt;br&gt;เพิ่มเติม" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=20;strokeColor=default;fillColor=default;size=10;" vertex="1" parent="K5lTqBk6EVtpParv-pWJ-6">
+          <mxGeometry x="30" y="505" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-12" value="เวลาในการดำเนิน&lt;br&gt;การแก้ไข / ยื่นเอกสาร" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="K5lTqBk6EVtpParv-pWJ-6">
+          <mxGeometry x="20" y="610" width="140" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-13" value="[ดำเนินการเกินระยะเวลาที่กำหนด]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=#FFFFFF;" vertex="1" parent="K5lTqBk6EVtpParv-pWJ-6">
+          <mxGeometry y="810" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-14" value="[ดำเนินการภายในระยะเวลาที่กำหนด]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=#FFFFFF;" vertex="1" parent="K5lTqBk6EVtpParv-pWJ-6">
+          <mxGeometry x="40" y="240" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-15" value="ชำระค่าบริการ" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="K5lTqBk6EVtpParv-pWJ-6">
+          <mxGeometry x="160" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-16" value="เจ้าหน้าที่" style="swimlane;startSize=20;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;strokeColor=default;fillColor=default;" vertex="1" parent="K5lTqBk6EVtpParv-pWJ-2">
+          <mxGeometry x="340" y="20" width="360" height="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="K5lTqBk6EVtpParv-pWJ-16" source="K5lTqBk6EVtpParv-pWJ-18" target="K5lTqBk6EVtpParv-pWJ-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="135" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-18" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="K5lTqBk6EVtpParv-pWJ-16">
+          <mxGeometry x="65" y="150" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="K5lTqBk6EVtpParv-pWJ-16" source="K5lTqBk6EVtpParv-pWJ-21" target="K5lTqBk6EVtpParv-pWJ-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="K5lTqBk6EVtpParv-pWJ-16" source="K5lTqBk6EVtpParv-pWJ-21" target="K5lTqBk6EVtpParv-pWJ-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="255" />
+              <mxPoint x="270" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-21" value="ตรวจสอบเอกสาร" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="K5lTqBk6EVtpParv-pWJ-16">
+          <mxGeometry x="95" y="215" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="K5lTqBk6EVtpParv-pWJ-16" source="K5lTqBk6EVtpParv-pWJ-23" target="K5lTqBk6EVtpParv-pWJ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-23" value="&lt;span style=&quot;&quot;&gt;บันทึกความบกพร่องเอกสาร / เอกสารหลักฐานที่ยื่นเพิ่มเติม&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=20;strokeColor=default;fillColor=default;size=10;" vertex="1" parent="K5lTqBk6EVtpParv-pWJ-16">
+          <mxGeometry x="57.5" y="345" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-24" value="มอบสำเนาบันทึกความบกพร่องแก่ผู้ยื่นคำขอ" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="K5lTqBk6EVtpParv-pWJ-16">
+          <mxGeometry x="75" y="445" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-25" value="[เอกสารไม่ครบถ้วน / มีข้อบกพร่อง]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=default;" vertex="1" parent="K5lTqBk6EVtpParv-pWJ-16">
+          <mxGeometry x="40" y="305" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-26" value="End" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="K5lTqBk6EVtpParv-pWJ-16">
+          <mxGeometry x="100" y="1300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="K5lTqBk6EVtpParv-pWJ-16" source="K5lTqBk6EVtpParv-pWJ-28" target="K5lTqBk6EVtpParv-pWJ-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-28" value="นัดหมายวัน เวลาจัดเก็บมูลฝอยติดเชื้อกับผู้ยื่นคำร้อง" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="K5lTqBk6EVtpParv-pWJ-16">
+          <mxGeometry x="75" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-29" value="[เอกสารครบถ้วน]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=default;" vertex="1" parent="K5lTqBk6EVtpParv-pWJ-16">
+          <mxGeometry x="183" y="245" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="K5lTqBk6EVtpParv-pWJ-16" source="K5lTqBk6EVtpParv-pWJ-31" target="K5lTqBk6EVtpParv-pWJ-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-31" value="ดำเนินการจัดเก็บมูลฝอยติดเชื้อในวัน เวลาที่ตกลง" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="K5lTqBk6EVtpParv-pWJ-16">
+          <mxGeometry x="75" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-34" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="K5lTqBk6EVtpParv-pWJ-16">
+          <mxGeometry x="145" y="1215" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="K5lTqBk6EVtpParv-pWJ-16" source="K5lTqBk6EVtpParv-pWJ-34" target="K5lTqBk6EVtpParv-pWJ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QkmaO6MBWZauEZdMvUXH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="K5lTqBk6EVtpParv-pWJ-16" source="K5lTqBk6EVtpParv-pWJ-36" target="QkmaO6MBWZauEZdMvUXH-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K5lTqBk6EVtpParv-pWJ-36" value="คำนวณค่าธรรมเนียม&lt;br&gt;เก็บและขนมูลฝอย" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="K5lTqBk6EVtpParv-pWJ-16">
+          <mxGeometry x="75" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QkmaO6MBWZauEZdMvUXH-1" value="ส่งใบแจ้งหนี้ค่าธรรมเนียม" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="K5lTqBk6EVtpParv-pWJ-16">
+          <mxGeometry x="75" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QkmaO6MBWZauEZdMvUXH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="K5lTqBk6EVtpParv-pWJ-2" source="QkmaO6MBWZauEZdMvUXH-1" target="K5lTqBk6EVtpParv-pWJ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Service6" id="xW64kLvXVLFr1yzgjX_P">
+    <mxGraphModel dx="993" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-0" />
+        <mxCell id="pxAR45x01M0fUE0qhY8e-1" parent="pxAR45x01M0fUE0qhY8e-0" />
+        <mxCell id="pxAR45x01M0fUE0qhY8e-2" value="การให้บริการสูบสิ่งปฏิกูลประเภทไขมัน" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;strokeColor=default;fillColor=default;" vertex="1" parent="pxAR45x01M0fUE0qhY8e-1">
+          <mxGeometry x="120" y="60" width="700" height="1370" as="geometry" />
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="pxAR45x01M0fUE0qhY8e-2" source="pxAR45x01M0fUE0qhY8e-11" target="pxAR45x01M0fUE0qhY8e-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="pxAR45x01M0fUE0qhY8e-2" source="pxAR45x01M0fUE0qhY8e-26" target="pxAR45x01M0fUE0qhY8e-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="475" y="555" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="pxAR45x01M0fUE0qhY8e-2" source="pxAR45x01M0fUE0qhY8e-14" target="pxAR45x01M0fUE0qhY8e-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="280" />
+              <mxPoint x="409" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="pxAR45x01M0fUE0qhY8e-2" source="pxAR45x01M0fUE0qhY8e-17" target="pxAR45x01M0fUE0qhY8e-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="1220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="1190" />
+              <mxPoint x="489" y="1190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="pxAR45x01M0fUE0qhY8e-2" source="pxAR45x01M0fUE0qhY8e-14" target="pxAR45x01M0fUE0qhY8e-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="1260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="1250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-8" value="ผู้ยื่นคำขอ" style="swimlane;startSize=20;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;strokeColor=default;fillColor=default;" vertex="1" parent="pxAR45x01M0fUE0qhY8e-2">
+          <mxGeometry y="20" width="340" height="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="pxAR45x01M0fUE0qhY8e-8" source="pxAR45x01M0fUE0qhY8e-10" target="pxAR45x01M0fUE0qhY8e-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-10" value="Start" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="pxAR45x01M0fUE0qhY8e-8">
+          <mxGeometry x="95" y="50" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-11" value="&lt;span style=&quot;&quot;&gt;ยื่นหนังสือสมัครเข้ารับบริการเก็บขนมูลฝอยติดเชื้อพร้อมหลักฐาน&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=20;strokeColor=default;fillColor=default;size=10;" vertex="1" parent="pxAR45x01M0fUE0qhY8e-8">
+          <mxGeometry x="60" y="130" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="pxAR45x01M0fUE0qhY8e-8" source="pxAR45x01M0fUE0qhY8e-13" target="pxAR45x01M0fUE0qhY8e-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="580" />
+              <mxPoint x="90" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-13" value="แก้ไข / ยื่นเอกสาร&lt;br&gt;เพิ่มเติม" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=20;strokeColor=default;fillColor=default;size=10;" vertex="1" parent="pxAR45x01M0fUE0qhY8e-8">
+          <mxGeometry x="30" y="505" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-14" value="เวลาในการดำเนิน&lt;br&gt;การแก้ไข / ยื่นเอกสาร" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="pxAR45x01M0fUE0qhY8e-8">
+          <mxGeometry x="20" y="610" width="140" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-15" value="[ดำเนินการเกินระยะเวลาที่กำหนด]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=#FFFFFF;" vertex="1" parent="pxAR45x01M0fUE0qhY8e-8">
+          <mxGeometry y="810" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-16" value="[ดำเนินการภายในระยะเวลาที่กำหนด]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=#FFFFFF;" vertex="1" parent="pxAR45x01M0fUE0qhY8e-8">
+          <mxGeometry x="40" y="240" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-17" value="ชำระค่าบริการ" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="pxAR45x01M0fUE0qhY8e-8">
+          <mxGeometry x="160" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-18" value="เจ้าหน้าที่" style="swimlane;startSize=20;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;strokeColor=default;fillColor=default;" vertex="1" parent="pxAR45x01M0fUE0qhY8e-2">
+          <mxGeometry x="340" y="20" width="360" height="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="pxAR45x01M0fUE0qhY8e-18" source="pxAR45x01M0fUE0qhY8e-20" target="pxAR45x01M0fUE0qhY8e-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="135" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-20" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="pxAR45x01M0fUE0qhY8e-18">
+          <mxGeometry x="65" y="150" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="pxAR45x01M0fUE0qhY8e-18" source="pxAR45x01M0fUE0qhY8e-23" target="pxAR45x01M0fUE0qhY8e-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="pxAR45x01M0fUE0qhY8e-18" source="pxAR45x01M0fUE0qhY8e-23" target="pxAR45x01M0fUE0qhY8e-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="255" />
+              <mxPoint x="270" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-23" value="ตรวจสอบเอกสาร" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="pxAR45x01M0fUE0qhY8e-18">
+          <mxGeometry x="95" y="215" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="pxAR45x01M0fUE0qhY8e-18" source="pxAR45x01M0fUE0qhY8e-25" target="pxAR45x01M0fUE0qhY8e-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-25" value="&lt;span style=&quot;&quot;&gt;บันทึกความบกพร่องเอกสาร / เอกสารหลักฐานที่ยื่นเพิ่มเติม&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=20;strokeColor=default;fillColor=default;size=10;" vertex="1" parent="pxAR45x01M0fUE0qhY8e-18">
+          <mxGeometry x="57.5" y="345" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-26" value="มอบสำเนาบันทึกความบกพร่องแก่ผู้ยื่นคำขอ" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="pxAR45x01M0fUE0qhY8e-18">
+          <mxGeometry x="75" y="445" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-27" value="[เอกสารไม่ครบถ้วน / มีข้อบกพร่อง]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=default;" vertex="1" parent="pxAR45x01M0fUE0qhY8e-18">
+          <mxGeometry x="40" y="305" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-28" value="End" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="pxAR45x01M0fUE0qhY8e-18">
+          <mxGeometry x="100" y="1300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="pxAR45x01M0fUE0qhY8e-18" source="pxAR45x01M0fUE0qhY8e-30" target="pxAR45x01M0fUE0qhY8e-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-30" value="นัดหมายวัน เวลาจัดเก็บมูลฝอยติดเชื้อกับผู้ยื่นคำร้อง" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="pxAR45x01M0fUE0qhY8e-18">
+          <mxGeometry x="75" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-31" value="[เอกสารครบถ้วน]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=default;" vertex="1" parent="pxAR45x01M0fUE0qhY8e-18">
+          <mxGeometry x="183" y="245" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="pxAR45x01M0fUE0qhY8e-18" source="pxAR45x01M0fUE0qhY8e-33" target="pxAR45x01M0fUE0qhY8e-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-33" value="ดำเนินการจัดเก็บมูลฝอยติดเชื้อในวัน เวลาที่ตกลง" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="pxAR45x01M0fUE0qhY8e-18">
+          <mxGeometry x="75" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-34" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="pxAR45x01M0fUE0qhY8e-18">
+          <mxGeometry x="145" y="1215" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="pxAR45x01M0fUE0qhY8e-18" source="pxAR45x01M0fUE0qhY8e-34" target="pxAR45x01M0fUE0qhY8e-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="pxAR45x01M0fUE0qhY8e-18" source="pxAR45x01M0fUE0qhY8e-37" target="pxAR45x01M0fUE0qhY8e-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-37" value="คำนวณค่าธรรมเนียม&lt;br&gt;เก็บและขนมูลฝอย" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="pxAR45x01M0fUE0qhY8e-18">
+          <mxGeometry x="75" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-38" value="ส่งใบแจ้งหนี้ค่าธรรมเนียม" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;startSize=20;strokeColor=default;fillColor=default;" vertex="1" parent="pxAR45x01M0fUE0qhY8e-18">
+          <mxGeometry x="75" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pxAR45x01M0fUE0qhY8e-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#0000CC;labelBorderColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#050405;endArrow=block;endFill=1;startSize=20;" edge="1" parent="pxAR45x01M0fUE0qhY8e-2" source="pxAR45x01M0fUE0qhY8e-38" target="pxAR45x01M0fUE0qhY8e-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
